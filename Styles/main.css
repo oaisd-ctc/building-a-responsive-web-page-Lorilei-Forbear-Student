@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(209, 250, 207);
+}
 nav{
     display: flex;
     height: 50px;
@@ -20,10 +23,35 @@ a{
 nav > a:hover{
     color: white;
     font-size: 20px;
-    transition: 300ms;
+    transition: 100ms;
     justify-content: center;
     align-items: center;
 }
-h2, p{
+h2, p, strong{
     font-family: arial, sans-serif;
+}
+
+.proj{
+    display: flex;
+    width: 100%;
+    background-color: powderblue;
+    height: 100px;
+    border: hidden;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.proj > strong{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+}
+.proj > p{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
