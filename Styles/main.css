@@ -12,8 +12,18 @@ a{
     flex: 1;
     margin: 20px;
     font-family: arial, sans-serif;
-    color: white;
+    color: palegreen;
     text-decoration: none;
     padding-top: 20px;
-    padding-left: 170px;
+    padding-left: 8em;
+}
+nav > a:hover{
+    color: white;
+    font-size: 20px;
+    transition: 300ms;
+    justify-content: center;
+    align-items: center;
+}
+h2, p{
+    font-family: arial, sans-serif;
 }
