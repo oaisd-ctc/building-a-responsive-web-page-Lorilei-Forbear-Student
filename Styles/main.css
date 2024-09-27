@@ -27,28 +27,23 @@ nav > a:hover{
     justify-content: center;
     align-items: center;
 }
-h2, p, strong{
+h2, p, h3, h5{
     font-family: arial, sans-serif;
 }
 
 .proj{
-    display: flex;
     width: 100%;
     background-color: powderblue;
     height: 100px;
     border: hidden;
     border-radius: 8px;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
-.proj > strong{
-    display: flex;
-    flex-wrap: wrap;
+.proj > h3{
     width: 100%;
-    justify-content: center;
-    align-items:center;
+    padding-top: 20px;
 }
-.proj > p{
+.proj > h5{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -65,9 +60,48 @@ h2, p, strong{
     .proj{
         background-color: cornflowerblue;
     }
+    body{
+        background-color: lightgreen;
+    }
+    nav{
+        flex-direction: column;
+        height: 250px;
+        justify-items: center;
+        align-items: center;
+        margin: 0px;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    a{
+        justify-items: center;
+        align-items: center;
+        margin: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
 }
 @media screen and (max-width: 500px){
     .proj{
         background-color: dodgerblue;
+    }
+    nav{
+        flex-direction: column;
+        height: 250px;
+        justify-items: center;
+        align-items: center;
+        margin: 0px;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    a{
+        justify-items: center;
+        align-items: center;
+        margin: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    body{
+        background-color: white;
     }
 }
